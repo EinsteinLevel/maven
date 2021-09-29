@@ -4,4 +4,4 @@ RUN ln -snf /usr/share/zoneinfo/$TZ /etc/localtime && echo $TZ > /etc/timezone
 RUN apt-get update && apt-get install default-jdk maven git -y
 WORKDIR /tmp
 RUN git clone https://github.com/boxfuse/boxfuse-sample-java-war-hello.git \
-&& mvn package ./boxfuse-sample-java-war-hello/POM.xml
+&& mvn package boxfuse-sample-java-war-hello/POM.xml
