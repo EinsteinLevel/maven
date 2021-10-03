@@ -7,5 +7,5 @@ WORKDIR /boxfuse-sample-java-war-hello
 RUN mvn package
 WORKDIR /boxfuse-sample-java-war-hello/target
 RUN ls -la
-VOLUME ./data
-RUN cp /target/hello-1.0.war /data
+VOLUME . /data
+RUN cp /boxfuse-sample-java-war-hello/target/hello-1.0.war /data
