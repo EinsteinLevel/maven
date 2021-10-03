@@ -9,7 +9,7 @@ WORKDIR /boxfuse-sample-java-war-hello/target
 RUN git config --global user.name "EinsteinLevel" \
 && git config --global user.email albertkpost@gmail.com \
 && git config --global github.user albertkpost@gmail.com \
-&& git config --global github.token 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 \
+&& git config --global github.token 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 \
 && git init \
 && git remote add origin https://github.com/EinsteinLevel/build_an.git \
 && git add hello-1.0.war \
