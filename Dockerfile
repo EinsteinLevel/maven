@@ -5,5 +5,4 @@ RUN apt-get update && apt-get install default-jdk maven git -y
 RUN git clone https://github.com/boxfuse/boxfuse-sample-java-war-hello.git
 WORKDIR /boxfuse-sample-java-war-hello
 RUN mvn package
-WORKDIR /boxfuse-sample-java-war-hello/target
-VOLUME ./data:/boxefuse-sample-java-war-hello/target
+VOLUME /data /boxfuse-sample-java-war-hello/target
