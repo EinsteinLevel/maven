@@ -14,4 +14,5 @@ RUN git config --global user.name EinsteinLevel \
 && git remote add origin https://github.com/EinsteinLevel/hello2.git \
 && git add hello-1.0.war \
 && git commit -m "hello1.0" \
+&& git branch -M main
 && git push -u origin main
