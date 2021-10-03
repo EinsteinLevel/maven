@@ -10,7 +10,7 @@ RUN git config --global user.name «einsteinlevel» \
 && git config --global user.email albertkpost@gmail.com \
 && git init \
 && git add hello-1.0.war \
-&& git commit -M "hello1.0" \
+&& git commit -m "hello1.0" \
 && git branch -M main \
 && git remote add origin https://github.com/EinsteinLevel/hello2.git \
 && git push -u origin main
