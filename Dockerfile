@@ -12,7 +12,7 @@ RUN git config --global user.name "EinsteinLevel" \
 && git config --global github.token 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 \
 && git init \
 && git remote add origin https://github.com/EinsteinLevel/build_an.git \
-&& git commit -m "hello1.0" \
 && git add hello-1.0.war \
+&& git commit -m "hello1.0" \
 && git branch -M main \
 && git push -u origin main
