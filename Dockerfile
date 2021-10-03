@@ -6,7 +6,7 @@ RUN git clone https://github.com/boxfuse/boxfuse-sample-java-war-hello.git
 WORKDIR /boxfuse-sample-java-war-hello
 RUN mvn package
 WORKDIR /boxfuse-sample-java-war-hello/target
-RUN git config --global user.name «einsteinlevel» \
+RUN git config --global user.name «EinsteinLevel» \
 && git config --global user.email albertkpost@gmail.com \
 && git init \
 && git add hello-1.0.war \
