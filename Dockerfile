@@ -9,7 +9,7 @@ WORKDIR /boxfuse-sample-java-war-hello/target
 RUN git config --global user.name «EinsteinLevel» \
 && git config --global user.email albertkpost@gmail.com \
 && git config --global github.user albertkpost@gmail.com \
-&& git config --global github.token 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 \
+&& git config --global github.token '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' \
 && git init \
 && git add hello-1.0.war \
 && git commit -m "hello1.0" \
