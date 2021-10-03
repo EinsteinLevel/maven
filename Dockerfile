@@ -6,4 +6,4 @@ RUN git clone https://github.com/boxfuse/boxfuse-sample-java-war-hello.git
 WORKDIR /boxfuse-sample-java-war-hello
 RUN mvn package
 WORKDIR /boxfuse-sample-java-war-hello/target
-VOLUME /data:/boxefuse-sample-java-war-hello/target/
+VOLUME ./data:/boxefuse-sample-java-war-hello/target
